@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code typer</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="top">
+                <h3 style="font-weight: bold">Settings</h3>
+                <button class="collapse-button">X</button>
+            </div>
+            <div class="sidebar-body">
+                <div>
+                    <h4 class="green">Text Color:</h4>
+                    <input type="color" id="txtColorPicker">
+                </div>
+                <div>
+                    <h4 class="green">Body Color:</h4>
+                    <input type="color" id="bodyColorPicker">
+                </div>
+                <div>
+                    <h4 class="green">Animation type</h4>
+                    <select id="animationType">
+                        <option value="scroll">Scroll</option>
+                        <option value="type">Type</option>
+                    </select>
+                </div>
+                <div>
+                    <h4 class="green">Upload file!</h4>
+                    <input type="file" id="fileInput">
+                </div>
+            </div>
+        </div>
+        <p id="code">
+            
+        </p>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

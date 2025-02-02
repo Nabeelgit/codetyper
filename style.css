@@ -1,0 +1,41 @@
+:root {
+    --bodyColor: #000000;
+    --textColor: #ffffff;
+    --hackerGreen: rgb(37, 181, 37);
+}
+
+.green {
+    color: var(--hackerGreen)
+}
+
+body {
+    background-color: var(--bodyColor);
+    color: var(--textColor);
+    margin: 0;
+    padding-top: 2px;
+    padding-left: 1rem;
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    display: flex;
+}
+.sidebar {
+    border-right: solid 1px white;
+    margin-right: 3rem ;
+}
+.container .top {
+    display: flex;
+    padding: 10px;
+    border-bottom: solid 1px rgb(221, 209, 191);
+    justify-content: center;
+    align-items: center;
+}
+.container .top .collapse-button {
+    background-color: var(--bodyColor);
+    color: var(--textColor);
+    margin-left: 1rem;
+    height: 2rem;
+    width: auto;
+}
